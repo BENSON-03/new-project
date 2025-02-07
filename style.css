@@ -1,0 +1,38 @@
+table,
+td,
+th {
+  border: 1px solid blue;
+  background-color: aquamarine;
+}
+table {
+  border-collapse: separate;
+  width: 100%;
+}
+th {
+  text-align: center;
+}
+tr :nth-child(even) {
+  background-color: blue;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+img#IMAGE2 {
+  width: 400px;
+  height: 400px;
+}
+body {
+  background-image: url(https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.hAYhSqemtMMoZNKxFS0wewHaFs%26pid%3DApi&sp=1738218249Te06a00ca8fe1f7115def0a11222aa8d55c43c8b56be649ba1691fbb43895a21b);
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+ol {
+  color: chocolate;
+}
+h1 {
+  font-size: 60px;
+  color: brown;
+  text-align: center;
+}
